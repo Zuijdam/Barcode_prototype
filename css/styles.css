@@ -14,6 +14,10 @@ h1, h2, h3, h4 {
   font-family: "Cabin Condensed", sans-serif;
 }
 
+header {
+  background: #FFC600;
+  padding: 1em;
+}
 
 header .headline {
   max-width: 640px;
@@ -43,15 +47,15 @@ footer {
 }
 
 #interactive.viewport {
-  width: 350px;
-  height: 350px;
+  width: 640px;
+  height: 480px;
 }
 
 
 #interactive.viewport canvas, video {
   float: left;
-  width: 350px;
-  height: 350px;
+  width: 640px;
+  height: 480px;
 }
 
 #interactive.viewport canvas.drawingBuffer, video.drawingBuffer {
