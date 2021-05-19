@@ -289,7 +289,7 @@ $(function() {
 
             $node = $('<li><div class="thumbnail"><div class="imgWrapper"><img /></div><div class="caption"><h4 class="code"></h4></div></div></li>');
             $node.find("img").attr("src", canvas.toDataURL());
-            $node.find("h4.code").html(code + "  <a href='https://icecat.biz/search?keyword=" + code + "'> <br> Zoek op icecat</a> <br> of <br> <a href='https://www.ean-search.org/?q=" + code + "'> zoek op ean search (met prijzen)");
+            $node.find("h4.code").html(code + "  <a href='https://icecat.biz/search?keyword=" + code + "' target='_blank'> <br>Icecat</a> <br> <a href='https://www.ean-search.org/?q=" + code + "' target='_blank'>ean search");
             $("#result_strip ul.thumbnails").prepend($node);
         }
     });
