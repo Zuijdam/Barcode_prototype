@@ -15,7 +15,7 @@ h1, h2, h3, h4 {
 }
 
 header {
-  background: #FFC600;
+  background: #004C99;
   padding: 1em;
 }
 
@@ -25,7 +25,7 @@ header .headline {
 }
 
 header .headline h1 {
-  color: #FFDD69;
+  color: #004C99;
   font-size: 3em;
   margin-bottom: 0;
 }
