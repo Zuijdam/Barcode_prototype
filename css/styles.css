@@ -15,8 +15,10 @@ h1, h2, h3, h4 {
 }
 
 header {
-  background: #004C99;
+  background: #ffffff;
   padding: 1em;
+  text-align: center;
+  color: #EEE;
 }
 
 header .headline {
@@ -25,7 +27,7 @@ header .headline {
 }
 
 header .headline h1 {
-  color: #004C99;
+  color: #FFBE00;
   font-size: 3em;
   margin-bottom: 0;
 }
