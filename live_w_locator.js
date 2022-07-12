@@ -289,7 +289,7 @@ $(function() {
 
             $node = $('<li><div class="thumbnail"><div class="imgWrapper"><img /></div><div class="caption"><h4 class="code"></h4></div></div></li>');
             $node.find("img").attr("src", canvas.toDataURL());
-            $node.find("h4.code").html(code + "  <a href='https://tst-shop.bouwcenter.nl/hci/zoeken?q=" + code + "' target='_blank'> <br>Bouwcenter</a> );
+            $node.find("h4.code").html(code + "  <a href='https://tst-shop.bouwcenter.nl/hci/zoeken?q=" + code + "' target='_blank'> <br>Bouwcenter</a> ");
             $("#result_strip ul.thumbnails").prepend($node);
         }
     });
