@@ -1,0 +1,21 @@
+{
+  "name": "barcode-scanner",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch",
+    "start": "http-server ./dist -p 8010 -o --cors"
+  },
+  "author": "dgrfactory",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "promise": "^8.1.0",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
