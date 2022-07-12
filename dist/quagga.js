@@ -4464,7 +4464,7 @@ module.exports = {
     locate: true,
     numOfWorkers: 0,
     decoder: {
-        readers: ['code_128_reader'],
+        readers: ['ean_reader'],
         debug: {
             drawBoundingBox: false,
             showFrequency: false,
